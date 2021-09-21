@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block main %}
+
+
+
+<div class="card">
+    <div class="card-header align-items-center">
+      <p class="align-items-center"><b>USER DETAILS </b>
+      <!-- <a href="" class="text-reset">Logout</a></p> -->
+      <button type="button" class="btn btn-dark logout-btn">Logout</button></p> 
+    </div>
+    <div class="card login-card">
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">ID</th>
+                <th scope="col">NAME</th>
+                <th scope="col">EMAIL</th>
+                <th scope="col">USERNAME</th>
+                <th>Address</th>
+                <th>ACTION</th>
+              </tr>
+            </thead>
+            <tbody id="details">
+              <!--  -->
+              
+            </tbody>
+          </table>
+    </div>
+  </div>
+
+
+
+{% endblock %}
